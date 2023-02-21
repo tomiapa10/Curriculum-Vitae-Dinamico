@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Curriculum Vitae</title>
+    <link rel="stylesheet" href="diseño.css">
+</head>
+<style>
+     .imagen {
+        position: relative;
+        left: 400px;
+        height: 200px;
+        top: 10px;
+    }
+</style>
+
+<body>
+        <h1>CURRICULUM VITAE</h1>
+        <img class="imagen" src="foto2.jpg" alt="foto2">
+        <header>
+        <h3>ACORTADORES</h3>
+        </header>
+        <ul>
+        <li><a href="#DatosPersonales">Datos Personales</a></li>
+        <li><a href="#ExperienciasLaborales">Experiencias</a></li>
+        <li><a href="#Habilidades">Habilidades</a></li>
+        <li><a href="#Contacto">Contacto</a></li>
+        </ul>
+        <h3 id="DatosPersonales"> DATOS PERSONALES:</h3>
+            <div>
+                <p id="nombre"></p>
+                <p id="edad"></p> 
+                <p id="fdn"></p>
+                <p id="domicilio"></p>
+                <p id="ocupacion"></p>
+            </div>
+        <h3 id="ExperienciasLaborales"> EXPERIENCIAS LABORALES:</h3>
+             <div>    
+                <p id="experiencia1"></p>
+                <p id="experiencia2"></p>
+            </div>
+        <h3 id="Habilidades">HABILIDADES:</h3>
+            <div>
+                <p id="habilidad1"></p>
+                <p id="habilidad2"></p>
+                <p id="habilidad3"></p>
+                <p id="habilidad4"></p>
+                <p id="habilidad5"></p>
+            </div>
+        <h3 id="Contacto">CONTACTO:</h3>
+            <div>
+                <p id="contacto1"></p>
+                <p id="contacto2"></p>
+            </div>
+    <script src="interacciones.js"></script>
+    <p id="demo"><strong> Mostrar datos adicionales?</strong></p>
+    <button type="button" onclick='document.getElementById("demo").innerHTML = "Titulo secundario: Tecnico electromecanico especializado en equipos"'>Click Aca</button>
+    <section>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/WhatsApp_icon.png/598px-WhatsApp_icon.png" alt="WhatsApp">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/2048px-Instagram_icon.png" alt="Instagram">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Twitter-logo.svg/2491px-Twitter-logo.svg.png" alt="Twitter">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/2021_Facebook_icon.svg/2048px-2021_Facebook_icon.svg.png" alt="Facebook">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Telegram_logo.svg/2048px-Telegram_logo.svg.png" alt="Telegram">
+</section>
+</body>
+</html>
